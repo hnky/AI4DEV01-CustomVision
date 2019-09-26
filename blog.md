@@ -4,7 +4,7 @@ And welcome on this first article in the AI for Developer serie, in this serie o
 
 For the first article I want to share with you how you can create a classification model using the Custom Vision service with the Python SDK.
 
-### Why Python and not the visual interface you would ask?
+### Why Python and not the visual interface?
 The answer to that is simple, if you build the training process in code you can version it on for instance Github. And having your code versioned means, you can read back what you have done, work together on it and can run it again if you need to. 
 
 Let’s dive into the code! Before we start, I assume you have [Python 3.6](https://www.python.org/downloads/) installed. 
