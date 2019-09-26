@@ -219,8 +219,6 @@ Now you have the prediction key and the endpoint you can create the PredictionCl
 predictor = CustomVisionPredictionClient(prediction_key, endpoint=ENDPOINT)
 ```
 
-### finally the time has come to test the model!
-
 To classify an image you have a multiple options. You can send an URL or you can send the image to the endpoint. By default the custom vision services keeps a history of all the images posted to the endpoint. This images and the predictions you can review in the portal and use to retrain your model. But sometimes you don’t want it and it is possible to disable this feature.
 
 I have uploaded 2 images you can use for testing, but feel free to use bing to search for other images of [Marge](https://www.bing.com/images/search?q=marge+simpson+lego) and [Homer](https://www.bing.com/images/search?q=homer+simpson+lego).
