@@ -232,7 +232,18 @@ for prediction in results.predictions:
  	print("\t" + prediction.tag_name + ": {0:.2f}%".format(prediction.probability * 100))
 ```
 
-XXXXXXXXXXXXXXX
+Now you are all done and have our own classification model running in the cloud! So what have we done:
+
+- We ask a question
+- Collected data
+- Create a Custom Vision Service endpoint in Azure
+- Create a new Project
+- Tagged and uploaded content
+- Trained the model 
+- Publish the iteration so it can be used in an API
+- Run predictions against the model in the API
+
+In the rest of this series of articles we will use this model different solutions! Stay tuned! 
 
 ### Resources:
 - [How to install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
