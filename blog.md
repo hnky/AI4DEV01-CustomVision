@@ -234,19 +234,11 @@ for prediction in results.predictions:
 
 XXXXXXXXXXXXXXX
 
-Resources:
-•	How to install the Azure CLI
-https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
-
-•	Creating cognitive services through the CLI
-https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-cli
-
-•	Python SDK 
-https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python
-
-•	Custom Vision Documentation
-https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/
-•	
+### Resources:
+- [How to install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [Creating cognitive services through the CLI](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-cli)
+- [Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python)
+- [Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service)
 
 
 
