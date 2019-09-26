@@ -12,12 +12,18 @@ Let’s dive into the code! Before we start, I assume you have [Python 3.6](http
 ### Create resources in Azure
 The first thing you need to do is create a Custom Vision service in Azure. If you don’t have an [Azure subscription](https://azure.microsoft.com/free/) you can get 200$ starting credit for the first month. 
 
-You can create a Custom Vision endpoint easily through the portal, but you can also use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) for this.
+You can create a Custom Vision endpoint easily through the portal, but you can also use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) for this. If you don' t have the [Azure cli](https://pypi.org/project/azure-cli/) installed you can install it easily using pip.
+
+```
+pip install azure-cli
+```
+
+The first step is to login to your Azure subscription, select the right subscription and create a resource group for the Custom Vision Endpoints.
 
 ```
 az login
-az group create --name CustomVision_Demo-RG --location westeurope
 az account set -s <SUBSCRIPTION_ID>
+az group create --name CustomVision_Demo-RG --location westeurope
 ```
 
 The Custom Vision Service has 2 types of endpoints. One for training the model and one for running predictions against the model.
@@ -32,8 +38,8 @@ az cognitiveservices account create --name CustomVisionDemo-Training --resource-
 You can use the Azure CLI to easily get the training key and the prediction key for the endpoints.
 
 ```
-az cognitiveservices account keys list --name CustomVisionDemo-Training --resource-group CustomVision_Demo-rg
-az cognitiveservices account keys list --name CustomVisionDemo-Prediction  --resource-group CustomVision_Demo-rg
+az cognitiveservices account keys list --name CustomVisionDemo-Training --resource-group CustomVision_Demo-RG
+az cognitiveservices account keys list --name CustomVisionDemo-Prediction  --resource-group CustomVision_Demo-RG
 ```
 
 Now that we have created the endpoints we can start with training the model. 
@@ -158,7 +164,7 @@ Project ID and iteration ID, these are values from the previous steps. You can c
 You can use this command to retrieve all the details about the Prediction resource you created:
 
 ```
-az cognitiveservices account show --name CustomVisionDemo-Prediction --resource-group CustomVision_Demo-rg
+az cognitiveservices account show --name CustomVisionDemo-Prediction --resource-group CustomVision_Demo-RG
 ```
 
 You can copy the value that is behind the field id, it looks like this:
