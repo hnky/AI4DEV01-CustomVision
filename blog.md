@@ -1,4 +1,4 @@
-# Create your first model with Custom Vision and Python
+# Create your first model with Azure Custom Vision and Python
 
 Welcome to this first article in the AI for Developer series, in this series of articles I will share tips and tricks around Azure AI with you. My name is Henk Boelman, a Cloud Advocate at Microsoft based in the Netherlands, focusing on AI for developers.
 
