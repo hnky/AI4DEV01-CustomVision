@@ -191,7 +191,7 @@ A small recap of what have we done:
 -	You have trained an iteration of your model
 -	You have published the iteration to a prediction endpoint
 
-[View the full code here]('train.py')
+[View the full code here]('https://github.com/hnky/AI4DEV01-CustomVision/blob/master/train.py')
 
 ### Let’s test the model!
 Using the model in an application is as easy as calling an API. You could do just a json post to the endpoint, but you can also use the methods in the Custom Vision Python SDK, which will make things a lot easier. 
@@ -220,7 +220,7 @@ Now you have the prediction key and the endpoint you can create the PredictionCl
 predictor = CustomVisionPredictionClient(prediction_key, endpoint=ENDPOINT)
 ```
 
- You have  multiple options to classify an image. You can send a URL or you can send the binary image to the endpoint. By default the Azure Custom Vision service keeps a history of all the images posted to the endpoint. The images and their predictions can be reviewed in the portal and used to retrain your model. But sometimes you don’t want the images to be kept in history and therefore it is possible to disable this feature.
+You have  multiple options to classify an image. You can send a URL or you can send the binary image to the endpoint. By default the Azure Custom Vision service keeps a history of all the images posted to the endpoint. The images and their predictions can be reviewed in the portal and used to retrain your model. But sometimes you don’t want the images to be kept in history and therefore it is possible to disable this feature.
 
 I have uploaded 2 images you can use for testing, but feel free to use a search engine to find other images of [Marge](https://www.bing.com/images/search?q=marge+simpson+lego) and [Homer](https://www.bing.com/images/search?q=homer+simpson+lego).
 
@@ -248,6 +248,8 @@ Now you are all done and have your own classification model running in the cloud
 - Ran predictions against the model using the API
 
 In the rest of this series of articles we will use this model for different solutions! Stay tuned! 
+
+[View the full code here]('https://github.com/hnky/AI4DEV01-CustomVision/blob/master/predict.py')
 
 ### Resources:
 - [How to install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AI4DEV01-blog-heboelma)
