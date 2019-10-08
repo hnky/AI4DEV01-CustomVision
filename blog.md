@@ -51,7 +51,7 @@ Now that we know what to ask the model, we can go on to the next requirement; th
 
 I have created a dataset for you with 50 pictures of a Homer Simpson Lego figure and 50 pictures of a Marge Simpsons Lego figure. I have taken the photos with a few things in mind, used a lot of different backgrounds and took the photos from different angles. I made sure the only object in the photo was Homer or Marge and the quality of the photos was somehow the consistent.
 
-[Download the dataset here]().
+[Download the dataset here](https://www.henkboelman.com/media/45lkxosc/ai4dev01-dataset.zip).
 
 ### Train the model
 For the training we are going the use the [Custom Vision Service Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python&WT.mc_id=AI4DEV01-blog-heboelma), you can install this package using pip.
