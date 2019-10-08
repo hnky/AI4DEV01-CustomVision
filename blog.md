@@ -10,7 +10,7 @@ The answer to that is simple, if you build the training process in code you can 
 Let’s dive into the code! Before we start, I assume you have [Python 3.6](https://www.python.org/downloads/) installed. 
 
 ### Create resources in Azure
-The first thing you need to do is create an Azure Custom Vision service. If you don’t have an [Azure subscription](https://azure.microsoft.com/free/) you can get $200 credit for the first month. 
+The first thing you need to do is create an Azure Custom Vision service. If you don’t have an [Azure subscription](https://azure.microsoft.com/free/?WT.mc_id=AI4DEV01-blog-heboelma) you can get $200 credit for the first month. 
 
 You can create an Azure Custom Vision endpoint easily through the portal, but you can also use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AI4DEV01-blog-heboelma) for this. If you don' t have the [Azure cli](https://pypi.org/project/azure-cli/?WT.mc_id=AI4DEV01-blog-heboelma) installed you can install it using pip.
 
