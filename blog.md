@@ -12,7 +12,7 @@ Let’s dive into the code! Before we start, I assume you have [Python 3.6](http
 ### Create resources in Azure
 The first thing you need to do is create an Azure Custom Vision service. If you don’t have an [Azure subscription](https://azure.microsoft.com/free/) you can get $200 credit for the first month. 
 
-You can create an Azure Custom Vision endpoint easily through the portal, but you can also use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) for this. If you don' t have the [Azure cli](https://pypi.org/project/azure-cli/) installed you can install it using pip.
+You can create an Azure Custom Vision endpoint easily through the portal, but you can also use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AI4DEV01-blog-heboelma) for this. If you don' t have the [Azure cli](https://pypi.org/project/azure-cli/?WT.mc_id=AI4DEV01-blog-heboelma) installed you can install it using pip.
 
 ```
 pip install azure-cli
@@ -54,7 +54,7 @@ I have created a dataset for you with 50 pictures of a Homer Simpson Lego figure
 [Download the dataset here]().
 
 ### Train the model
-For the training we are going the use the [Custom Vision Service Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python), you can install this package using pip.
+For the training we are going the use the [Custom Vision Service Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python&WT.mc_id=AI4DEV01-blog-heboelma), you can install this package using pip.
 
 ```
 pip install azure-cognitiveservices-vision-customvision
@@ -250,7 +250,7 @@ Now you are all done and have your own classification model running in the cloud
 In the rest of this series of articles we will use this model for different solutions! Stay tuned! 
 
 ### Resources:
-- [How to install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-- [Creating cognitive services through the CLI](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-cli)
-- [Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python)
-- [Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service)
+- [How to install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AI4DEV01-blog-heboelma)
+- [Creating cognitive services through the CLI](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-cli?WT.mc_id=AI4DEV01-blog-heboelma)
+- [Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices/customvision?view=azure-python&WT.mc_id=AI4DEV01-blog-heboelma)
+- [Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service?WT.mc_id=AI4DEV01-blog-heboelma)
