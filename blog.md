@@ -72,7 +72,7 @@ Next, create variables for the Custom Vision endpoint, Custom Vision training ke
 
 ```
 cv_endpoint = "https://westeurope.api.cognitive.microsoft.com"
-training_key = "69c283088cb149d9bf3e2a4279504ff5"
+training_key = "<INSERT TRAINING KEY>"
 training_images = "LegoSimpsons/TrainingImages"
 ```
 
